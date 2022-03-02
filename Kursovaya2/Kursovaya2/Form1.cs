@@ -14,7 +14,7 @@ namespace Kursovaya2
     public partial class Form1 : Form
     {
 
-        public string connect = "Server=localhost;Database=librarydatabase;Uid=root;password=Vbifcfif;charset=utf8"; // данные для коннекта
+        public string connect = "Server=localhost;Database=librarydatabase;Uid=root;password=Тут был мой пароль);charset=utf8"; // данные для коннекта
         public MySqlConnection MyConn; // Коннектор к БД
         public MySqlCommand MyComm; // Для отправки запроса
         public MySqlDataAdapter adapter; // Предоставляет выборку из запроса.
